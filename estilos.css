@@ -44,11 +44,10 @@ li{
 }
 
 .inicio h2{
-    display: flex;
     color:black;
     font-family: Helvetica;
     font-size: 2.5em;
-    text-align:center;  
+    text-align:center;
 }
 
 .inicio h3{
@@ -317,6 +316,10 @@ input{
 .footer p{
     font-family:Cambria;
     text-decoration: solid;
+}
+
+html{
+    display: block;
 }
 
 @media only screen and (max-width: 320px) {
