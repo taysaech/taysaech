@@ -305,19 +305,22 @@ input{
 }
 
 .footer{
+    display: flex;
     background-color: rgba(208, 118, 247, 0.288);
     text-align: center;
-    padding: 2%;
+    padding: 1%;
     margin-top: 1%;
 }
 
 .footer p{
     font-family:Cambria;
     text-decoration: solid;
+    margin:0 auto;
 }
 
+
 html{
-    display: block;
+    display: flex;
 }
 
 @media only screen and (max-width: 320px) {
